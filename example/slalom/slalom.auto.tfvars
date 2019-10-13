@@ -10,10 +10,10 @@ org = {
 }
 
 workspace = {
-  name                  = "terraform-github-repository"
+  name                  = "terraform-terraform-tfe-examplea"
   terraform_version     = "0.12.10"
   auto_apply            = false
   file_triggers_enabled = true
   queue_all_runs        = false
-  identifier            = "slalom-consulting-ltd/terraform-github-repository"
+  identifier            = "jameswoolfenden/terraform-terraform-tfe"
 }
