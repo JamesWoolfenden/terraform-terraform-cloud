@@ -9,7 +9,7 @@ resource "tfe_workspace" "workspace" {
   vcs_repo {
     identifier         = var.workspace["identifier"]
     ingress_submodules = false
-    oauth_token_id     = data.tfe_workspace.master.vcs_repo.oauth_token_id
+    oauth_token_id     = data.tfe_workspace.master.vcs_repo.0.oauth_token_id
   }
 }
 
