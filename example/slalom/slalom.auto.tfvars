@@ -15,5 +15,5 @@ workspace = {
   auto_apply            = false
   file_triggers_enabled = true
   queue_all_runs        = false
-  identifier            = "jameswoolfenden/terraform-terraform-tfe"
+  identifier            = "JamesWoolfenden/terraform-terraform-cloud"
 }
