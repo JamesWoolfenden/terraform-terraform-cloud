@@ -8,3 +8,7 @@ variable "org" {
   description = ""
   type        = map
 }
+
+variable "workspace" {
+  type = map
+}

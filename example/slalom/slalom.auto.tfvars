@@ -8,3 +8,12 @@ org = {
   session_remember_minutes = 0
   session_timeout_minutes  = 0
 }
+
+workspace = {
+  name                  = "terraform-github-repository"
+  terraform_version     = "0.12.10"
+  auto_apply            = false
+  file_triggers_enabled = true
+  queue_all_runs        = false
+  identifier            = "slalom-consulting-ltd/terraform-github-repository"
+}
