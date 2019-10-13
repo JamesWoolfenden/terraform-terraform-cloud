@@ -10,10 +10,11 @@ org = {
 }
 
 workspace = {
-  name                  = "terraform-terraform-tfe-examplea"
+  name                  = "terraform-terraform-cloud-examplea"
   terraform_version     = "0.12.10"
   auto_apply            = false
   file_triggers_enabled = true
   queue_all_runs        = false
+  working_directory     = "example/exampleA"
   identifier            = "JamesWoolfenden/terraform-terraform-cloud"
 }
