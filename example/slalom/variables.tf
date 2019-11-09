@@ -10,5 +10,6 @@ variable "org" {
 }
 
 variable "workspace" {
-  type = map
+  description = "The name of the terraform workspace"
+  type        = list(map(string))
 }

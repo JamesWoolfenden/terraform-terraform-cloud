@@ -1,6 +1,6 @@
 [![Slalom][logo]](https://slalom.com)
 
-# terraform-terraform-tfe  [![Build Status](https://travis-ci.com/JamesWoolfenden/terraform-terraform-tfe.svg?branch=master)](https://travis-ci.com/JamesWoolfenden/terraform-terraform-tfe) [![Latest Release](https://img.shields.io/github/release/JamesWoolfenden/terraform-terraform-tfe.svg)](https://github.com/JamesWoolfenden/terraform-terraform-tfe/releases/latest)
+# terraform-terraform-cloud  [![Build Status](https://travis-ci.com/JamesWoolfenden/terraform-terraform-cloud.svg?branch=master)](https://travis-ci.com/JamesWoolfenden/terraform-terraform-cloud) [![Latest Release](https://img.shields.io/github/release/JamesWoolfenden/terraform-terraform-cloud.svg)](https://github.com/JamesWoolfenden/terraform-terraform-cloud/releases/latest)
 
 ## Usage
 Add module.tfe.tf into your templates.
@@ -22,7 +22,7 @@ module "tfe" {
 |------|-------------|:----:|:-----:|:-----:|
 | common\_tags | This is to help you add tags to your cloud objects | map | n/a | yes |
 | org | Terraform Organisation | map | n/a | yes |
-| workspace | The name of the terraform workspace | map | n/a | yes |
+| workspace | The name of the terraform workspace | list(map(string)) | n/a | yes |
 
 ## Outputs
 
@@ -41,13 +41,13 @@ Check out these related projects.
 
 **Got a question?**
 
-File a GitHub [issue](https://github.com/JamesWoolfenden/terraform-terraform-tfe/issues).
+File a GitHub [issue](https://github.com/JamesWoolfenden/terraform-terraform-cloud/issues).
 
 ## Contributing
 
 ### Bug Reports & Feature Requests
 
-Please use the [issue tracker](https://github.com/JamesWoolfenden/terraform-terraform-tfe/issues) to report any bugs or file feature requests.
+Please use the [issue tracker](https://github.com/JamesWoolfenden/terraform-terraform-cloud/issues) to report any bugs or file feature requests.
 
 ## Copyrights
 
@@ -89,8 +89,8 @@ under the License.
 [linkedin]: https://www.linkedin.com/company/slalom-consulting/
 [twitter]: https://twitter.com/Slalom
 
-[share_twitter]: https://twitter.com/intent/tweet/?text=terraform-terraform-tfe&url=https://github.com/JamesWoolfenden/terraform-terraform-tfe
-[share_linkedin]: https://www.linkedin.com/shareArticle?mini=true&title=terraform-terraform-tfe&url=https://github.com/JamesWoolfenden/terraform-terraform-tfe
-[share_reddit]: https://reddit.com/submit/?url=https://github.com/JamesWoolfenden/terraform-terraform-tfe
-[share_facebook]: https://facebook.com/sharer/sharer.php?u=https://github.com/JamesWoolfenden/terraform-terraform-tfe
-[share_email]: mailto:?subject=terraform-terraform-tfe&body=https://github.com/JamesWoolfenden/terraform-terraform-tfe
+[share_twitter]: https://twitter.com/intent/tweet/?text=terraform-terraform-cloud&url=https://github.com/JamesWoolfenden/terraform-terraform-cloud
+[share_linkedin]: https://www.linkedin.com/shareArticle?mini=true&title=terraform-terraform-cloud&url=https://github.com/JamesWoolfenden/terraform-terraform-cloud
+[share_reddit]: https://reddit.com/submit/?url=https://github.com/JamesWoolfenden/terraform-terraform-cloud
+[share_facebook]: https://facebook.com/sharer/sharer.php?u=https://github.com/JamesWoolfenden/terraform-terraform-cloud
+[share_email]: mailto:?subject=terraform-terraform-cloud&body=https://github.com/JamesWoolfenden/terraform-terraform-cloud

@@ -9,7 +9,7 @@ org = {
   session_timeout_minutes  = 0
 }
 
-workspace = {
+workspace = [{
   name                  = "terraform-terraform-cloud-examplea"
   terraform_version     = "0.12.10"
   auto_apply            = false
@@ -17,4 +17,4 @@ workspace = {
   queue_all_runs        = false
   working_directory     = "example/exampleA"
   identifier            = "JamesWoolfenden/terraform-terraform-cloud"
-}
+}]
