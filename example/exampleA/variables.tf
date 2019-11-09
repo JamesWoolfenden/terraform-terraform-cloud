@@ -8,3 +8,8 @@ variable "org" {
   description = ""
   type        = map
 }
+
+variable "workspace" {
+  description = "The name of the terraform workspace"
+  type        = map
+}

@@ -1,5 +1,5 @@
 resource "tfe_workspace" "workspace" {
-
+  count                 = length(var.workspace)
   name                  = var.workspace["name"]
   organization          = tfe_organization.org.name
   auto_apply            = var.workspace["auto_apply"]

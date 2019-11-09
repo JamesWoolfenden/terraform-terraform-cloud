@@ -5,10 +5,11 @@ variable "common_tags" {
 
 
 variable "org" {
-  description = ""
+  description = "Terraform Organisation"
   type        = map
 }
 
 variable "workspace" {
-  type = map
+  description = "The name of the terraform workspace"
+  type        = map
 }
