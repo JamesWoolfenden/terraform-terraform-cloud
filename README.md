@@ -29,6 +29,7 @@ module "tfe" {
 | Name | Description |
 |------|-------------|
 | organisation | Required for to publish Modules |
+| workspaces |  |
 
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Related Projects
