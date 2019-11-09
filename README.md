@@ -1,5 +1,17 @@
 # terraform-terraform-tfe
 
+## Usage
+Add module.tfe.tf into your templates.
+
+```terraform
+module "tfe" {
+  source      = "../../"
+  org         = var.org
+  common_tags = var.common_tags
+  workspace   = var.workspace
+}
+```
+
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Inputs
 
