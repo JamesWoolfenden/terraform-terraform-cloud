@@ -9,4 +9,4 @@ org = {
   session_timeout_minutes  = 0
 }
 
-workspace = {}
+workspace = []
